@@ -58,21 +58,16 @@ snake-ai<br>
 │── snake_game.py   
 │── README.md
 
-## ▶️ How to Run
+##  How to Run
 
 ### 1. Install dependencies
 
-```
 pip install pygame torch numpy matplotlib
-```
 
 ### 2. Run training
 
-```
 python train.py
-```
 
----
 
 ## 📊 Training Details
 
