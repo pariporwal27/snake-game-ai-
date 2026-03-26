@@ -30,17 +30,17 @@ The agent learns by:
 5. Using the knowledge for future game 
 
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
-* **Python**
-* **PyTorch**
-* **Pygame**
-* **NumPy**
-* **Matplotlib**
+* Python
+* PyTorch
+* Pygame
+* NumPy
+* Matplotlib
 
----
 
-## 🚀 Features
+
+##  Features
 
 * 🤖 Fully autonomous Snake AI
 * 📈 Real-time training graph (score vs games)
