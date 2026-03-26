@@ -60,16 +60,16 @@ snake-ai<br>
 
 ##  How to Run
 
-### 1. Install dependencies
+### 1. Install Libraries
 
 pip install pygame torch numpy matplotlib
 
-### 2. Run training
+### 2. Run 
 
 python train.py
 
 
-## 📊 Training Details
+##  Training Details
 
 * State Space: 11 features
 * Actions: 3 (straight, right turn, left turn)
@@ -77,7 +77,6 @@ python train.py
 * Learning Rate: 0.001
 * Discount Factor (Gamma): 0.9
 
----
 
 ## 📈 Results
 
