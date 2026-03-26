@@ -11,8 +11,8 @@ LR = 0.001
 class Agent:
     def __init__(self):
         self.n_games = 0
-        self.epsilon = 0    # randomness
-        self.gamma = 0.9    # discount rate
+        self.epsilon = 0    
+        self.gamma = 0.9  
         self.memory = deque(maxlen=MAX_MEMORY)
         # 11 inputs → 256 hidden → 3 outputs
         self.model = LinearQNet(11, 256, 3)
