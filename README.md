@@ -1,4 +1,4 @@
-# 🐍 Snake AI – Reinforcement Learning Project
+#  Snake Game AI – Reinforcement Learning Project
 
 ## 📌 Project Overview
 
