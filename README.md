@@ -42,25 +42,21 @@ The agent learns by:
 
 ##  Features
 
-* 🤖 Fully autonomous Snake AI
-* 📈 Real-time training graph (score vs games)
-* 💾 Model saving on best performance
-* ⚡ Efficient training using replay memory
+*  Fully autonomous Snake AI
+*  Real-time training graph (score vs games)
+*  Model saving on best performance
+*  Efficient training using replay memory
 
----
 
-## 📂 Project Structure
 
-```
+##  Project Structure
+
 snake-ai/
-│── train.py        # Training loop + plotting
-│── agent.py        # AI agent logic
-│── model.py        # Neural network (DQN)
-│── snake_game.py   # Game environment
+│── train.py       
+│── agent.py      
+│── model.py      
+│── snake_game.py   
 │── README.md
-```
-
----
 
 ## ▶️ How to Run
 
