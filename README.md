@@ -51,7 +51,7 @@ The agent learns by:
 
 ##  Project Structure
 
-snake-ai/
+snake-ai
 │── train.py       
 │── agent.py      
 │── model.py      
