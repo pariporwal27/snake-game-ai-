@@ -44,8 +44,8 @@ The agent learns by:
 
 *  Fully autonomous Snake AI
 *  Real-time training graph (score vs games)
-*  Model saving on best performance
-*  Efficient training using replay memory
+*  Model saving on best score
+*  Efficient training using past memory
 
 
 
