@@ -51,8 +51,8 @@ class Agent:
             dir_r, dir_l, dir_u, dir_d,
 
             
-            game.food[0] < head[0],  # food left
-            game.food[0] > head[0],  # food right
+            game.food[0] < head[0],  
+            game.food[0] > head[0],  
             game.food[1] < head[1],  # food up
             game.food[1] > head[1],  # food down
         ]
