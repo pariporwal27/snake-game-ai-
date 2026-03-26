@@ -83,14 +83,13 @@ python train.py
 * Ensuring stable training
 * Integrating AI with game environment
 
-## 📚 Learnings
+##  Learnings
 
 * Practical understanding of Reinforcement Learning
 * Implementation of Deep Q-Networks
 * Working with PyTorch models
 * Handling real-time training and visualization
 
----
 
 ## 👤 Author
 
