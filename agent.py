@@ -20,8 +20,8 @@ class Agent:
     def get_state(self, game):
         head = game.head
         bl = [head[0]-20, head[1]]  
-        br = [head[0]+20, head[1]]  # block right
-        bu = [head[0], head[1]-20]  # block up
+        br = [head[0]+20, head[1]]  
+        bu = [head[0], head[1]-20]  
         bd = [head[0], head[1]+20]  # block down
 
         dir_r = game.direction == "RIGHT"
