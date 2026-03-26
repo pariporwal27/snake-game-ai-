@@ -22,7 +22,7 @@ class Agent:
         bl = [head[0]-20, head[1]]  
         br = [head[0]+20, head[1]]  
         bu = [head[0], head[1]-20]  
-        bd = [head[0], head[1]+20]  # block down
+        bd = [head[0], head[1]+20]  
 
         dir_r = game.direction == "RIGHT"
         dir_l = game.direction == "LEFT"
@@ -30,13 +30,12 @@ class Agent:
         dir_d = game.direction == "DOWN"
 
         state = [
-            # Danger straight
             (dir_r and game.is_collision(br)) or
             (dir_l and game.is_collision(bl)) or
             (dir_u and game.is_collision(bu)) or
             (dir_d and game.is_collision(bd)),
 
-            # Danger right
+        
             (dir_u and game.is_collision(br)) or
             (dir_d and game.is_collision(bl)) or
             (dir_l and game.is_collision(bu)) or
