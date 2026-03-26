@@ -2,7 +2,6 @@ import pygame
 import random
 import numpy as np
 
-# Constants
 BLOCK = 20
 SPEED = 40
 W, H = 640, 480
