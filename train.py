@@ -21,7 +21,7 @@ def train():
 
     agent = Agent()
     game = SnakeGame()
-    plt.ion()  # live plot
+    plt.ion()  
 
     while True:
         state = agent.get_state(game)
