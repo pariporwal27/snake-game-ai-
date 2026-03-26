@@ -42,7 +42,6 @@ class QTrainer:
             reward     = reward.unsqueeze(0)
             done       = (done,)
 
-        # Predicted Q values
         pred = self.model(state)
         target = pred.clone()
 
