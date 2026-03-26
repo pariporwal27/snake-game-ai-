@@ -73,7 +73,6 @@ class Agent:
         self.trainer.train_step(state, action, reward, next_state, done)
 
     def get_action(self, state):
-        # Explore vs exploit
         self.epsilon = 80 - self.n_games
         action = [0, 0, 0]
         if random.randint(0, 200) < self.epsilon:
