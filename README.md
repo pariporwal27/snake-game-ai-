@@ -12,12 +12,12 @@ In many real-world scenarios, agents must learn optimal decisions through experi
 
 
 
-## 💡 Solution Approach
+##  Solution Approach
 
 The solution uses:
 
-* **Deep Q-Learning (DQN)** for decision making
-* A neural network to predict optimal actions
+* Deep Q-Learning (DQN) for decision making
+* A neural network to predict best actions
 * Experience replay (memory) for stable learning
 * Reward-based feedback system
 
