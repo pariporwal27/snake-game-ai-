@@ -76,14 +76,12 @@ python train.py
 * Best score increases over time
 
 
-## ⚠️ Challenges Faced
+##  Challenges Faced
 
 * Balancing exploration vs exploitation
 * Debugging game loop and collisions
 * Ensuring stable training
 * Integrating AI with game environment
-
----
 
 ## 📚 Learnings
 
