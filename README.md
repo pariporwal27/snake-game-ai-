@@ -6,7 +6,7 @@ This project is a Snake Game powered by Artificial Intelligence using Reinforcem
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 In many real-world scenarios, agents must learn optimal decisions through experience rather than predefined rules. This project demonstrates how an AI agent can learn to play the Snake game without being explicitly programmed with strategies.
 
