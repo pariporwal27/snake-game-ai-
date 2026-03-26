@@ -91,23 +91,16 @@ python train.py
 * Handling real-time training and visualization
 
 
-## 👤 Author
-
-**Pari Porwal**
-
----
-
-## 📌 Future Improvements
+##  Future Improvements
 
 * Improve reward system for faster learning
 * Enhance model architecture
 * Add model loading for inference
 * Optimize training performance
 
----
 
-## ⭐ Conclusion
+##  Conclusion
 
 This project demonstrates how an AI agent can learn intelligent behavior through trial and error using reinforcement learning, without being explicitly programmed.
 
----
+
