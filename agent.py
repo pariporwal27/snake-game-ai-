@@ -14,13 +14,12 @@ class Agent:
         self.epsilon = 0    
         self.gamma = 0.9  
         self.memory = deque(maxlen=MAX_MEMORY)
-        # 11 inputs → 256 hidden → 3 outputs
         self.model = LinearQNet(11, 256, 3)
         self.trainer = QTrainer(self.model, lr=LR, gamma=self.gamma)
 
     def get_state(self, game):
         head = game.head
-        bl = [head[0]-20, head[1]]  # block left
+        bl = [head[0]-20, head[1]]  
         br = [head[0]+20, head[1]]  # block right
         bu = [head[0], head[1]-20]  # block up
         bd = [head[0], head[1]+20]  # block down
