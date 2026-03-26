@@ -53,8 +53,8 @@ class Agent:
             
             game.food[0] < head[0],  
             game.food[0] > head[0],  
-            game.food[1] < head[1],  # food up
-            game.food[1] > head[1],  # food down
+            game.food[1] < head[1],  
+            game.food[1] > head[1],  
         ]
         return np.array(state, dtype=int)
 
