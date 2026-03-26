@@ -41,16 +41,16 @@ class Agent:
             (dir_l and game.is_collision(bu)) or
             (dir_r and game.is_collision(bd)),
 
-            # Danger left
+    
             (dir_d and game.is_collision(br)) or
             (dir_u and game.is_collision(bl)) or
             (dir_r and game.is_collision(bu)) or
             (dir_l and game.is_collision(bd)),
 
-            # Current direction
+            
             dir_r, dir_l, dir_u, dir_d,
 
-            # Food location
+            
             game.food[0] < head[0],  # food left
             game.food[0] > head[0],  # food right
             game.food[1] < head[1],  # food up
