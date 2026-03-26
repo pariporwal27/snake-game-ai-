@@ -68,24 +68,13 @@ pip install pygame torch numpy matplotlib
 
 python train.py
 
-
-##  Training Details
-
-* State Space: 11 features
-* Actions: 3 (straight, right turn, left turn)
-* Memory Size: 100,000
-* Learning Rate: 0.001
-* Discount Factor (Gamma): 0.9
-
-
-## 📈 Results
+##  Results
 
 * The AI starts with random moves
 * Learns progressively through rewards
 * Performance improves with more training
 * Best score increases over time
 
----
 
 ## ⚠️ Challenges Faced
 
