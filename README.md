@@ -27,8 +27,8 @@ The agent learns by:
 2. Taking an action
 3. Receiving a reward or penalty
 4. Updating its knowledge over time
+5. Using the knowledge for future game 
 
----
 
 ## 🛠️ Technologies Used
 
