@@ -1,8 +1,8 @@
 #  Snake Game AI – Reinforcement Learning Project
 
-## 📌 Project Overview
+##  Project Overview
 
-This project is a **Snake Game powered by Artificial Intelligence** using **Reinforcement Learning (Deep Q-Learning)**. The AI agent learns to play the classic snake game by interacting with the environment and improving its performance over time.
+This project is a *Snake Game powered by Artificial Intelligence using Reinforcement Learning (Deep Q-Learning). The AI agent learns to play the classic snake game by interacting with the environment and improving its performance over time by learning from past game experience.
 
 ---
 
