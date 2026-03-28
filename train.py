@@ -7,8 +7,9 @@ from agent import Agent
 
 def plot(scores, mean_scores):
     plt.clf()
+    plt.xlabel("Games")
+    plt.ylabel("Score")
     plt.title("Snake AI Training")
-    
     plt.plot(scores, label="Score")
     plt.plot(mean_scores, label="Mean Score")
     plt.legend()
