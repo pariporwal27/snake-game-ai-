@@ -18,7 +18,7 @@ def plot(scores, mean_scores):
 def train():
     scores = []
     mean_scores = []
-    total_score = 10
+    total_score = 0
     best_score = 0
 
     agent = Agent()
