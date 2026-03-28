@@ -12,20 +12,20 @@ In many real-world scenarios, agents must learn optimal decisions through experi
 
 ##  Solution Approach
 
-The solution uses:
+The solution employs the following:
 
-* Deep Q-Learning (DQN) for decision making
-* A neural network to predict best actions
-* Experience replay (memory) for stable learning
+* Deep Q-Learning (DQN)
+* Neural network for predicting the best action
+* Experience replay (memory)
 * Reward-based feedback system
 
-The agent learns by:
+The agent learns through:
 
-1. Observing the current state
-2. Taking an action
+1. Observation of the current state
+2. Execution of an action
 3. Receiving a reward or penalty
-4. Updating its knowledge over time
-5. Using the knowledge for future game 
+4. Update of knowledge over time
+5. Utilization of the knowledge for the game
 
 
 ##  Technologies Used
@@ -70,7 +70,7 @@ python train.py
 
 * The AI starts with random moves
 * Learns progressively through rewards
-* Performance improves with more training
+* improves with more training
 * Best score increases over time
 
 
