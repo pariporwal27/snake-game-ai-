@@ -26,7 +26,7 @@ def train():
     plt.ion()  
 
     while True:
-        
+        state = agent.get_state(game)
         action = agent.get_action(state)
         reward, done, score = game.play_step(action)
         next_state = agent.get_state(game)
