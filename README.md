@@ -99,6 +99,6 @@ python train.py
 
 ##  Conclusion
 
-This project demonstrates how an AI agent can learn intelligent behavior through trial and error using reinforcement learning, without being explicitly programmed.
+The project has shown the capability of an AI agent to learn intelligent behavior through trial and error by using reinforcement learning.
 
 
