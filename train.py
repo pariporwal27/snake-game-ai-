@@ -1,8 +1,7 @@
 import torch 
 print("Torch imported")
 import matplotlib.pyplot as plt
-from snake_game import SnakeGame
-from agent import Agent
+
 
 def plot(scores, mean_scores):
     plt.clf()
