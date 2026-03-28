@@ -16,7 +16,7 @@ def plot(scores, mean_scores):
     plt.pause(0.1)
 
 def train():
-    scores = []
+    scores = {}
     mean_scores = []
     total_score = 0
     best_score = 0
