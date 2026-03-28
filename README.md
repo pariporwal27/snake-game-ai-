@@ -10,8 +10,6 @@ Artificial Intelligence Snake Game using Reinforcement Learning (Deep Q-Learning
 
 In many real-world scenarios, agents must learn optimal decisions through experience rather than predefined rules. This project demonstrates how an AI agent can learn to play the Snake game without being explicitly programmed with strategies.
 
-
-
 ##  Solution Approach
 
 The solution uses:
