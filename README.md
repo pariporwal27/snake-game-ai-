@@ -76,17 +76,17 @@ python train.py
 
 ##  Challenges Faced
 
-* Balancing exploration vs exploitation
-* Debugging game loop and collisions
-* Ensuring stable training
-* Integrating AI with game environment
+* Balancing exploration and exploitation
+* Debugging the game loop and collisions
+* Ensuring stability in the training process
+* Integrating the AI with the game environment
 
 ##  Learnings
 
-* Practical understanding of Reinforcement Learning
+* Practical knowledge of Reinforcement Learning
 * Implementation of Deep Q-Networks
-* Working with PyTorch models
-* Handling real-time training and visualization
+* Working with PyTorch-based models
+* Real-time training and visualization
 
 
 ##  Future Improvements
