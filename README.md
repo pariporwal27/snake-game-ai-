@@ -73,6 +73,12 @@ python train.py
 * improves with more training
 * Best score increases over time
 
+## Output screenshot
+<br>
+<img width="651" height="526" alt="Screenshot 2026-03-27 005940" src="https://github.com/user-attachments/assets/ba39eae7-96a0-4b7f-b735-36e67acf7d4f" />
+<br>
+<img width="800" height="686" alt="Screenshot 2026-03-24 192656" src="https://github.com/user-attachments/assets/6de16bbf-05f7-43f9-82ce-da4d049e2ecc" />
+
 
 ##  Challenges Faced
 
